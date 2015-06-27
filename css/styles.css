@@ -1,0 +1,190 @@
+body {
+  font-family: Tahoma;
+  font-size: .8em;
+}
+
+.appWrapper {
+  margin: 0 auto 100px auto;
+  width: 800px;
+  min-height: 700px;
+}
+
+.appWrapper div {
+  margin-top: 30px;
+}
+
+.optionsTable {
+  min-height: 80px;
+  width: 100%;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.optionsTable td {
+  margin: 0;
+  border: none;
+}
+
+.clipTable, td {
+  width: 800px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  border-collapse: collapse;
+}
+
+.clipTable th, .clipTable td {
+  text-align: left;
+  height: 24px;
+  padding: 2px 6px;
+  margin: 0;
+  min-width: 20px;
+}
+
+.clipTable td {
+  background-color: #F1F1F1;
+}
+
+.clipEditButtons td {
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+/*clips*/
+.ID, .price, .rating, .timeLength {
+  width: 130px;
+}
+.clipButtons {
+  width: 100px;
+  padding-left: 50px;
+}
+
+.clipAttrHeader {
+  text-decoration: underline;
+  color: DarkBlue;
+}
+
+/* add more classes here */
+.clipAttrHeader:hover {
+  cursor: pointer;
+}
+
+.sortedDown {
+  color: blue;
+}
+
+.sortedUp {
+  color: red
+}
+
+.searchWrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.searchBox, .searchButton, .searchDropdownWrapper {
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  vertical-align: middle;
+  resize: none;
+}
+
+.searchBox {
+  width: 140px;
+  height: 18px;
+}
+
+.searchButton, .addNewClipButton {
+  height: 24px;
+  margin: 0 0 0 4px;
+}
+
+#seachDropdownTD {
+  border-right: 1px solid silver;
+  padding: 0 30px 0 8px;
+}
+
+.suggPriceWrapper {
+  height: 44px;
+  display: block;
+  position: relative;
+  top: -21px;
+  right: -20px;
+  padding-left: 20px;
+}
+
+.suggPriceWrapper p {
+  margin-bottom: 4px;
+}
+
+.addNewClipButton {
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  right: -6px;
+}
+
+/*clip editing CSS*/
+.editingWrapper {
+  position:absolute;
+  width:750px;
+  height:600px;
+  padding: 0 25px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  background-color: #EEEEEE;
+}
+
+.editingWrapper textarea {
+  width: 740px;
+  height: 70px;
+  margin-top: -10px;
+  resize: none;
+}
+
+.editingWrapper p, .editingWrapper span {
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.editingWrapper input {
+  position: relative;
+  top: 2px;
+}
+
+.editingWrapper div {
+  margin:0;
+}
+
+#editClipTitle {
+  height: 16px;
+}
+
+#editClipTimeLength, #editClipPrice {
+  height: 15px;
+  width: 100px;
+  display: inline-block;
+  resize: none;
+}
+
+#suggPriceButton {
+  position: relative;
+  top: -6px;
+  margin: 0 4px;
+}
+
+#submitEditClipButton, #submitNewClipButton,
+#cancelSubmitClipButton {
+  font-size: 1.4em;
+  padding: 5px 10px;
+  margin: 40px 10px 40px 0;
+}
+
+/*utility CSS*/
+.hide {
+  display: none;
+}
