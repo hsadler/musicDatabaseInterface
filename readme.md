@@ -1,1 +1,1 @@
-A database interface I designed for my Hack Reactor application.
+A database interface for storing metadata for audio clips
